@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    background-image: url("../img/back.jpg");
+}
+
+.container {
+    background-color: #423945;
+    background-image: linear-gradient(135deg, #fd6585 10%, #0d25b9 100%);
+    width: 400px;
+    height: 500px;
+    border-radius: 1.5%;
+    border: none;
+    padding: 1.5em;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.hide {
+    display: none;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+hr {
+    color: white;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 2.2em;
+}
+
+.info {
+    margin: 0 auto;
+    text-align: center;
+    width: fit-content;
+    margin-bottom: 2em;
+}
+
+.info i {
+    font-size: 1em;
+}
+
+.info p {
+    margin-inline: 0.5em;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.form input {
+    margin-right: 0.4em;
+    width: 75%;
+    border: none;
+    transition: all 0.5s ease-in-out;
+    font-size: 1em;
+    border-radius: 2%;
+}
+
+#pintar {
+    background-color: rgb(255, 255, 255);
+}
+
+#descricao {
+    font-weight: 900;
+    margin-right: 7px;
+}
+
+
+#icone-ui{
+    height: 65%;
+    width: 70%;
+    transition: all 1s ease-out;
+}
+
+
+
+
+
+.info2 i {
+    font-size: 1.5em;
+}
+
+#pintar i {
+    color: rgb(87, 87, 87);
+}
+
+.form input:focus {
+    background-color: #0cdbff;
+}
+
+.form i {
+    font-size: 1.7em;
+}
+
+.linha {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+h2 {
+    font-size: 1.4em;
+    margin-bottom: 0.7em;
+}
+
+input {
+    padding: 0.5em;
+}
+
+#temperatura {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+}
+
+.info2 {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.info3 {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.info3 div {
+    margin-inline: 0.5em;
+    font-weight: 600;
+}
+
+.esquerda {
+    padding-block: 0.5em;
+    border-left: rgba(255, 255, 255, 0.712) 2px solid;
+}
+.esquerda i {
+    margin-left: 12px;
+    margin-right: 1em;
+}
+
+.antes i {
+    margin-right: 1.2em;
+}
+
+.magn {
+    transition: all 0.4s ease-out;
+}
+
+#bandeira {
+    width: 75px;
+    height: 50px;
+    border-radius: 3%;
+}
+
+.magn:hover {
+    scale: 1.2;
+    color: #0cdbff;
+    transform: rotate(360deg);
+    font-weight: 900;
+}
+
+#temp {
+    margin-right: 5px;
+}

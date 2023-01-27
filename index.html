@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <!--Google Fonts-->
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@1,100&family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400;1,700&display=swap");
+        </style>
+        <!--Font awesome-->
+        <script
+            src="https://kit.fontawesome.com/b13d28264d.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="js/script.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Confira o clima de uma cidade:</h2>
+            <form class="linha form">
+                <input type="text" id="city-input" placeholder="Digite o nome da cidade" />
+
+                <i class="fa-solid fa-magnifying-glass magn"></i>
+            </form>
+            <hr />
+            <div class="fa-3x load hide">
+                <i class="fa-solid fa-cog fa-spin"></i>
+            </div>
+
+            <img id="icone-ui" src="img/weather-showers-scattered.svg" alt="icone-ui">
+            <div class="hide principal">
+                <div class="linha info">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p id="cidade">Maputo</p>
+                    <img
+                        src=""
+                        id="bandeira"
+                        alt="Bandeira do pais"
+                    />
+                </div>
+                <p id="temperatura"><span id="temp">28</span>&deg;C</p>
+                <div class="linha info2">
+                    <p id="descricao">Nublado</p>
+                    <i>
+                        <img
+                            src=""
+                            alt="Foto de estado do clima"
+                            id="icone-clima"
+                        />
+                    </i>
+                </div>
+                
+                <div class="linha info3">
+                    <div class="linha antes">
+                        <i class="fa-solid fa-droplet"></i>
+                        <p id="humidade"></p>
+                    </div>
+                    <div class="linha esquerda">
+                        <i class="fa-solid fa-wind"></i>
+                        <p id="velocidade">2.2km/h</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
